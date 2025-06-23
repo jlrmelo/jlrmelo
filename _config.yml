@@ -10,11 +10,12 @@
 ############################
 
 # Name of website
-title: My website
+title: Jose Melo
 
 # Your name to show in the footer
-author: Some Person
-
+author: José Melo
+description:
+  - Jose Melo professional website
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
@@ -25,6 +26,22 @@ navbar-links:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   Author's home: "https://deanattali.com"
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jlrmelo.github.io" # the base hostname & protocol for your site
+permalink: /:title/
+
+
+nav:
+  - text: "Home"
+    url: "/"
+  - text: "Blog"
+    url: "/posts/"
+  - text: "CV"
+    url: "/cv/"
+  - text: "Publications"
+    url: "/publications/"
+    
 
 ################
 # --- Logo --- #
@@ -42,6 +59,15 @@ round-avatar: true
 #title-img: /path/to/image
 
 
+# Collections
+collections:
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+
+
+
 #####################################
 # --- Footer social media links --- #
 #####################################
@@ -51,16 +77,10 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  github: jlrmelo
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
-#  linkedin: daattali
+  linkedin: jose--melo
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -74,8 +94,8 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+  ORCID: 0000-0001-5190-9730
+  google-scholar: iocSrWsAAAAJ&hl
 #  discord: "invite_code" or "users/userid" or "invite/invite_code"
 #  kaggle: yourname
 #  hackerrank: yourname
@@ -97,7 +117,6 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
   reddit: false
 
 # How to display the link to your website in the footer
@@ -279,6 +298,8 @@ defaults:
       layout: "post"
       comments: true  # add comments to all blog posts
       social-share: true # add social media sharing buttons to all blog posts
+      related: true
+      author: "Jose Melo"
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default

@@ -14,5 +14,7 @@ gem "wdm", "~> 0.1", :platforms => [:mingw, :x64_mingw, :mswin]
   
 gemspec
 
-gem "github-pages"
-gem "jekyll-scholar", "~> 5.12.0"  # Version compatible with GitHub Pages
+gem 'github-pages', "~> 223", group: :jekyll_plugins
+gem "jekyll-include-cache", group: :jekyll_plugins
+gem 'jekyll-scholar', group: :jekyll_plugins
+gem "webrick", "~> 1.7", group: :jekyll_plugins

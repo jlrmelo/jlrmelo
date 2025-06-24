@@ -21,9 +21,8 @@ description:
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
   Blog: "blog"
-  CV: "CV"
+  CV: "cv"
   Publications: "publications"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -34,15 +33,15 @@ url: "https://jlrmelo.github.io" # the base hostname & protocol for your site
 permalink: /:title/
 
 
-nav:
-  - text: "Home"
-    url: "/"
-  - text: "Blog"
-    url: "/posts/"
-  - text: "CV"
-    url: "/cv/"
-  - text: "Publications"
-    url: "/publications/"
+# nav:
+#   - text: "Home"
+#     url: "/"
+#   - text: "Blog"
+#     url: "/posts/"
+#   - text: "CV"
+#     url: "/cv/"
+#   - text: "Publications"
+#     url: "/publications/"
     
 
 ################

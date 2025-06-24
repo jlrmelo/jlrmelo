@@ -1,15 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Senior Artificial Intelligence Researcher
+subtitle: Ocean Infinity
 ---
 
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+I am currently a Senior AI Researcher at Ocean Inifinity
 
 ### My story
 

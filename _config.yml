@@ -22,6 +22,9 @@ description:
 
 navbar-links:
   About Me: "aboutme"
+  Blog: "blog"
+  CV: "CV"
+  Publications: "publications"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -61,8 +64,13 @@ round-avatar: true
 # Collections
 collections:
   publications:
+    sort_by: date
+    reverse: true
     output: true
     permalink: /:collection/:path/
+  blog:
+    output: true
+    permalink: /:year/:month/:day/:title/
 
 
 
